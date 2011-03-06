@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<floater name="chat floater" title="チャット履歴">
+	<button label="ﾁｬｯﾄ" name="Chat" />
+	<button label="ﾐｭｰﾄ" name="Mute resident" />
+	<check_box label="ﾐｭｰﾄされたﾃｷｽﾄを表示" name="show mutes" />
+	<string name="ringing">
+		インワールドボイスチャットに接続中．．．
+	</string>
+	<string name="connected">
+		接続しました
+	</string>
+	<string name="unavailable">
+		あなたの現在のロケーションでは、ボイスを利用できません。
+	</string>
+	<string name="hang_up">
+		インワールドボイスチャットの通話が切断されました
+	</string>
+	<string name="voice_icon">
+		icn_voice-localchat.tga
+	</string>
+</floater>

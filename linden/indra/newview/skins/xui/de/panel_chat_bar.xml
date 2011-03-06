@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel name="chat_bar">
+	<button label="Lokaler Chat" label_selected="Verlauf" name="History"
+	     tool_tip="Klicken Sie hier zur Anzeige des Gesprächs" />
+	<line_editor label="Zum Chatten hier klicken." name="Chat Editor"
+	     tool_tip="Eingabe für Sprechen, Strg-Eingabe für Rufen." />
+	<button label="Reden" label_selected="Reden" name="Say" tool_tip="(Eingabe)" />
+	<button label="Rufen" label_selected="Rufen" name="Shout" tool_tip="(Strg-Eingabe)" />
+	<combo_box label="Gesten" name="Gesture">
+		<combo_item name="Gestures">
+			Gesten
+		</combo_item>
+	</combo_box>
+</panel>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="メンバーを招待" name="invite_panel">
+	<text>
+		複数の住人を選択して、グループに 
+招待できます。 [リストから
+人を選ぶ]をクリックしてください。
+	</text>
+	<button label="リストから人を選ぶ" name="add_button" tool_tip="" />
+	<name_list name="invitee_list"
+	     tool_tip="複数の住人を選択するには、Ctrlキーを押しながら住人名をクリックします。" />
+	<button label="リストから選択したものを削除" name="remove_button"
+	     tool_tip="上で選択した居住者を招待リストから削除します。" />
+	<text>
+		割り当て先の役割を選択：
+	</text>
+	<combo_box name="role_name"
+	     tool_tip="Choose from the list of Roles you  are allowed to assign members to." />
+	<button label="招待を送信" name="ok_button" />
+	<button label="取り消し" name="cancel_button" />
+	<text name="loading">
+		(ローディング．．．)
+	</text>
+</panel>

@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<strings>
+<string><a_file>alerts.xml</a_file>
+<b_path>//ErrorEncodingSnapshot/message</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Error encoding snapshot.
+		</d_old>
+<e_new>
+			Error encoding snapshot!
+		</e_new>
+<f_translation>
+			スナップショットのエンコード化でエラーが出ました！
+		</f_translation>
+<f_old_trans>
+			スナップショットのエンコード化でエラーが出ました！
+		</f_old_trans>
+</string><string><a_file>alerts.xml</a_file>
+<b_path>//AddClassified/message</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Classified ads appear in the &apos;Classified&apos; section of the
+Search directory and on www.secondlife.com for one week.
+Fill out your ad, then click &apos;Publish...&apos; to add it to the
+directory.
+You&apos;ll be asked for a price to pay when clicking Publish.
+Paying more makes your ad appear higher in the list, and
+also appear higher when people search for keywords.
+		</d_old>
+<e_new>
+			Classified ads appear in the &apos;Classified&apos; section of the
+Find directory for one week.
+Fill out your ad, then click &apos;Publish...&apos; to add it to the
+directory.
+You&apos;ll be asked for a price to pay when clicking Publish.
+Paying more makes your ad appear higher in the list, and
+also appear higher when people search for keywords.
+		</e_new>
+<f_translation>
+			検索ディレクトリの「クラシファイド」セクションに、
+クラシファイド広告が1週間掲載されます。
+広告を記入後、[公開]をクリックし、ディレクトリに
+追加します。
+[公開]をクリックすると、支払金額を尋ねられます。
+多く払うほど、広告がクラシファイド・リストとキーワード検索
+の上位に表示されます。
+		</f_translation>
+<f_old_trans>
+			検索ディレクトリの「クラシファイド」セクションに、
+クラシファイド広告が1週間掲載されます。
+広告を記入後、[公開]をクリックし、ディレクトリに
+追加します。
+[公開]をクリックすると、支払金額を尋ねられます。
+多く払うほど、広告がクラシファイド・リストとキーワード検索
+の上位に表示されます。
+		</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_objects_panel</b_path>
+<c_attribute></c_attribute>
+<d_old></d_old>
+<e_new>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+      /&gt;
+		</e_new>
+<f_translation>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+      /&gt;
+		</f_translation>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_media_panel/Media texture:</b_path>
+<c_attribute></c_attribute>
+<d_old>
+				Media
+texture:
+			</d_old>
+<e_new>
+				Sound
+Settings:
+			</e_new>
+<f_translation>
+				サウンド
+設定:
+			</f_translation>
+<f_old_trans>
+				サウンド
+設定:
+			</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_access_panel/AccessCheck</b_path>
+<c_attribute>label</c_attribute>
+<d_old>Always Allow</d_old>
+<e_new>Ban</e_new>
+<f_translation>禁止</f_translation>
+<f_old_trans>禁止</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_access_panel/AccessCheck</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			  Allowed Residents
+			</d_old>
+<e_new>
+			  Banned Residents
+			</e_new>
+<f_translation>
+			  禁止された住人
+			</f_translation>
+<f_old_trans>
+				禁止された住人
+			</f_old_trans>
+</string><string><a_file>panel_audio_device.xml</a_file>
+<b_path>/device_settings/Input device (microphone):</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Audio Devices
+		</d_old>
+<e_new>
+			Input device (microphone):
+		</e_new>
+<f_translation>
+			入力機器 (マイクロフォン):
+		</f_translation>
+<f_old_trans>
+		入力レベル
+	</f_old_trans>
+</string><string><a_file>panel_audio_device.xml</a_file>
+<b_path>/device_settings/Input device (microphone):</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Audio Devices
+		</d_old>
+<e_new>
+			Input Level
+		</e_new>
+<f_translation>
+			入力レベル
+		</f_translation>
+<f_old_trans>
+		入力レベル
+	</f_old_trans>
+</string><string><a_file>panel_login.xml</a_file>
+<b_path>/panel_login/real_url</b_path>
+<c_attribute></c_attribute>
+<d_old>
+	     https://secondlife.com/app/login/?show_login_form=True
+	</d_old>
+<e_new>
+		http://secondlife.com/app/login/
+	</e_new>
+<f_translation>
+		http://secondlife.com/app/login/
+	</f_translation>
+<f_old_trans>
+		https://secondlife.com/app/login/?show_login_form=True
+	</f_old_trans>
+</string><string><a_file>panel_preferences_audio.xml</a_file>
+<b_path>/Media panel/doppler_effect_text</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Streaming Preferences:
+	</d_old>
+<e_new>
+		Audio Preferences:
+	</e_new>
+<f_translation>
+		オーディオ環境設定：
+	</f_translation>
+<f_old_trans>
+		オーディオ環境設定：
+	</f_old_trans>
+</string><string><a_file>panel_preferences_im.xml</a_file>
+<b_path>/im/text_box3</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Busy Mode Response:
+	</d_old>
+<e_new>
+		Logging Options:
+	</e_new>
+<f_translation>
+		ログインオプション：
+	</f_translation>
+<f_old_trans>
+		ログイン・オプション：
+	</f_old_trans>
+</string><string><a_file>panel_preferences_voice.xml</a_file>
+<b_path>/chat/voice_chat_description</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Push-to-Talk mode lets you control when your voice is transmitted. When in toggle mode, press and release the push-to-talk trigger to switch your microphone on and off. When not in toggle mode, the microphone is active only when the trigger is held down.
+	</d_old>
+<e_new>
+		NOTE: Running the Device Settings or Voice Chat Setup will temporarily disconnect you from Voice Chat.
+	</e_new>
+<f_translation>
+		メモ： 「機器の設定」または「ボイス・チャットの設定」を実行すると、一時的にボイス・チャットから切断されます。
+	</f_translation>
+<f_old_trans>
+		メモ： 「機器の設定」または「ボイス・チャットの設定」を実行すると、一時的にボイス・チャットから切断されます。
+	</f_old_trans>
+</string><string><a_file>panel_voice_options.xml</a_file>
+<b_path>/content_panel/push_to_talk_check</b_path>
+<c_attribute>label</c_attribute>
+<d_old>Only allow Friends to initiate Voice Calls with me</d_old>
+<e_new>Start Viewer in Push-to-Talk mode</e_new>
+<f_translation>プッシュ・トゥ・トークモードでビュアーを起動</f_translation>
+<f_old_trans>プッシュ・トゥ・トーク モードでビュアーを起動</f_old_trans>
+</string>
+</strings>

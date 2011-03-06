@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel border="true" top="20" enabled="true" follows="left|top|right|bottom"
+     height="400" label="Features" left="10" mouse_opaque="true" name="rainbow"
+     width="517">
+	<check_box bottom_delta="-20" control_name="ForceShowGrid" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Show the grid selection combo on the login screen" left="10"
+	     mouse_opaque="true" name="force_show_grid_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="SaveScriptsAsMono" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Save scripts in inventory as Mono scripts instead of LSL2" left="10"
+	     mouse_opaque="true" name="save_scripts_as_mono_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="DoubleClickTeleport" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Enable teleporting via double-click in-world" left="10"
+	     mouse_opaque="true" name="double_click_teleport_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="HideReleaseKeys" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Always hide the Release Keys button" left="10"
+	     mouse_opaque="true" name="hide_release_keys_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="HideMasterRemote" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Hide the Master Remote volume control when useless" left="10"
+	     mouse_opaque="true" name="hide_master_remote_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="HideIMInChat" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Hide IM in chat console" left="10"
+	     mouse_opaque="true" name="hide_im_in_chat_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="HideNotificationsInChat" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="Do not echo/log notifications in chat" left="10"
+	     mouse_opaque="true" name="hide_notifications_in_chat_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="AllowMUpose" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Allow MU* pose style in chat and IM (with ':' as a synonymous to '/me ')" left="10"
+	     mouse_opaque="true" name="allow_mu_pose_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="AutoCloseOOC" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Auto-close OOC chat (i.e. add '))' if not found and '((' was used)" left="10"
+	     mouse_opaque="true" name="auto_close_ooc_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="UseOldChatHistory" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Use the old style 'Chat history' window (requires a restart)" left="10"
+	     mouse_opaque="true" name="use_old_chat_history_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="ShowGroupsButton" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Show the Groups button in the toolbar (requires a restart)" left="10"
+	     mouse_opaque="true" name="show_group_button_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="UseOldTrackingDots" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="true"
+	     label="Use the old T-like tracking dots in mini-map (requires a restart)" left="10"
+	     mouse_opaque="true" name="use_old_tracking_dots_check" radio_style="false"
+	     width="400" />
+	<check_box bottom_delta="-20" control_name="RestrainedLife" enabled="true"
+	     follows="left|top" font="SansSerifSmall" height="16" initial_value="false"
+	     label="RestrainedLife (BDSM toys support) mode (requires a restart)" left="10"
+	     mouse_opaque="true" name="restrained_life_check" radio_style="false"
+	     width="400" />
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-30" drop_shadow_visible="true" enabled="true" follows="left|top"
+	     font="SansSerifSmall" h_pad="0" halign="left" height="10" hidden="false"
+	     left="10" mouse_opaque="true" name="time_format_text_box" v_pad="0"
+	     width="100">
+		Time format:
+	</text>
+	<combo_box allow_text_entry="false" bottom_delta="-5" enabled="true" follows="left|top"
+	     height="18" hidden="false" left="150" max_chars="20" mouse_opaque="true"
+	     name="time_format_combobox" width="150">
+		<combo_item type="string" length="1" enabled="true" name="24hours" value="default">
+			24 hours clock
+		</combo_item>
+		<combo_item type="string" length="1" enabled="true" name="12hours" value="default">
+			12 hours clock
+		</combo_item>
+	</combo_box>
+	<text type="string" length="1" bg_visible="false" border_drop_shadow_visible="false" border_visible="false"
+	     bottom_delta="-25" drop_shadow_visible="true" enabled="true" follows="left|top"
+	     font="SansSerifSmall" h_pad="0" halign="left" height="10" hidden="false"
+	     left="10" mouse_opaque="true" name="date_format_text_box" v_pad="0"
+	     width="100">
+		Date format:
+	</text>
+	<combo_box allow_text_entry="false" bottom_delta="-5" enabled="true" follows="left|top"
+	     height="18" hidden="false" left="150" max_chars="20" mouse_opaque="true"
+	     name="date_format_combobox" width="150">
+		<combo_item type="string" length="1" enabled="true" name="year_first" value="default">
+			YYYY-MM-DD
+		</combo_item>
+		<combo_item type="string" length="1" enabled="true" name="day_first" value="default">
+			DD/MM/YYYY
+		</combo_item>
+		<combo_item type="string" length="1" enabled="true" name="month_first" value="default">
+			MM/DD/YYYY
+		</combo_item>
+	</combo_box>
+</panel>

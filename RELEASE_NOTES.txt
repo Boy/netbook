@@ -1,0 +1,131 @@
+Release Notes for Rainbow Viewer 1.19.0.5 Netbook Edition v1.2 Windows Oct 17th 2009
+=====================================
+http://my.opera.com/boylane (Windows)
+
+Patches by Aimee Trescothick: 
+* AmbiantMasterVolume: Fixes the issue with ambiant sounds not being affected by the master volume (VWR-4371). 
+* TextHistoryOnSendIMbutton: Fixes a bug which prevents the IMs from being stored into the line editor history when using the Send IM button instead of ENTER (VWR-14267). This patch is integrated with the MUposeStyleAndOOCautoClose_v3 patch (see above) to prevent mutual conflicts. 
+* TexturePreviewAspectRatio: Implements an aspect ratio combo in the texture preview floater (VWR-8008). 
+  
+Patches by Alissa Sabre: 
+* FilePickerLocaleCrash: fixes a crash bug in the file picker dealing with accented characters and bad locale (VWR-5575). 
+* LlfontglRenderWrongParams: fixes a wrong parameter list in a llfontgl function (VWR-9517). 
+* StyleDropShadow: fixes a llStyle quirk (VWR-1352). 
+  
+Patches by Blakar Ogre: 
+* ParticlesDeadCodeAndVWR983: fixes particles update issues (VWR-983) and cleans up dead code. 
+* ParticlesVWR2164: fixes particles alpha-related quirks (VWR-2164). 
+* ParticlesVWR418: fixes particles generation issues (VWR-418).
+
+Patches by Boy Lane:
+* AvatarUUID: based on a feature from the Emerald viewer, this patch shows the key of avatars in the "2nd Life" tab of the Profile panel 
+* CompilerOmitFramePointers: fix some default compiler optimizations
+* OpenGL-SSE: fixes SSE activation
+* NetbookFeatures: Adjusts viewer features for smaller netbook display and adds compiler optimizations for Intel Atom CPU
+* NotecardHandlingChanges: backport of the notecard behaviour from 1.23.5 mandatory update to 1.19
+* RainbowFeatures: based on CoolViewer, adds a preferences menu to control additional viewer features
+* RVAdditionalChanges: lots of smaller changes under the hood.
+  
+Patches by Gigs Taggart: 
+* Duckwalk: cosmetic patch for the "duck walk" of AO-less avatars (VWR-1603). 
+* EditTerrainForce: implements a "force" variable in the edit terrain tools (VWR-2331). 
+* SnapshotsPNG_JPG: implements PNG and JPG snapshots (VWR-2491). 
+
+Patches by Henri Beauchamp:
+* AdultCompliance: backport and adaptation to v1.19 of the adult compliancy protocols introduced in the v1.23 viewer, allowing to get search results for and access to adult stuff when your avatar is "adult verified".  
+* AllowDiscardForCreator: enables the "Discard" button in the notecards that you created and that are given to you with llGiveInventory(). Fixes the VWR-2290 bug. 
+* ATIcrashBug: works around the hardware cursor bug of Mobility Radeon cards running with the ATI fglrx drivers. See the VWR-1320 bug report for full details. 
+* CommonDateAndTimeFormats: allows to configure the time and date formats and to use them coherently everywhere in the viewer (fixes VWR-721 among others). 
+* DefaultSaveLoadDirectory: use the HOME directory by default for saving pictures or uploading pictures, animations and sounds, instead of the viewer installation directory. 
+* HideIMinChatConsole: allows to optionally prevent IMs to show in the main chat. Implements the VWR-3060 feature. 
+* HideNotificationsInChat: allows to optionally prevent the notifications (those small messages appearing in a blue box on the lower right corner of the viewer window) to show and be logged in the main chat. 
+* InventoryDoubleClickActions: defines double-click actions in inventory for objects (wear as attachments or remove if already worn), and clothes/body parts (wear when not worn, or remove when worn). Implements the VWR-1752 and part of the VWR-1825 features. 
+* InventoryDoubleClickActions_RestrainedLife_addon: addon patch to apply when the RestrainedLife patch is also used (see below). 
+* KeepCachedSounds: cures the sound problems in -multiple mode, and allows to keep cached sounds over sessions. Fixes the VWR-2876 bug. 
+* LandmarksDiscardButton: restores the "Discard" button in the new landmarks floater. Fixes the VWR-3616 regression. 
+* LargePrimsAndHavok4SimHeight: allows to build large prims (up to 128m large) in OpenSim and above 768m high (and up to 4096m) in SL. Also allows to TP above 1000m. 
+* MaxNetworkBandwidth: unleashes the maximum network bandwidth, preventing the repetitive throttling by the viewer (which slows down rezing compared to what it can be on high speed connections). Note: setting the max bandwidth to 4Mbps or so should be more than enough as I never saw more than 2.5 Mbps used by the viewer (the bandwidth is also limited server side anyway as it depends on the number of residents in the sim and on the network link speed for this sim). 
+* MonoBackport: backport of the v1.22 script engine with Mono compilation and new LSL functions support (note that although the new LSL functions will compile thanks to this patch, most of their effects will be invisible to the patched v1.19.0.5 viewer as they involve features implemented in later viewers, such as the render glow, the extended parcel media, etc). 
+* MoonBrightness: corrects the brightness of the moon, allowing to actually see it, especially when it's close to the horizon. 
+* MoreGrids: allows to select from the login screen to which public grid (SecondLife or OpenSim grids) you wish to connect. 
+* MouseLookFocusSwitchQuirk: Fixes quirks with the SL viewer window focus switching not properly restoring mouse-look and resetting the camera zoom level (fixes VWR-14666 among others). 
+* MUposeStyleAndOOCautoClose: allows to use the MUCK/MUSH/MUX/MUD pose style (VWR-3093) and allows to auto-close double-parenthesis (Out Of Character) chat/IM poses. This patch includes the  TextHistoryOnSendIMbutton patch (see below) to prevent mutual conflicts. 
+* NewNotecardSaveButton: adds a "Save" button to new/received notecards. 
+* NoMultipleLocaleWarnings: prevents messages such as "WARNING: LLLocale: Failed to set locale en_US.utf8" to appear hundreds of times in the log file (any locale loading failure now appears once only in the log). 
+* OldTrackingDotsInMinimap: reinstates the "old" (pre-v1.18.4) mini-map icons for "above" and "below" avatars. Also works around a problem with avatars above 1020m (which can't be distinguished from avatars at 0m) by using a special symbol for them (an horizontal bar). Fixes the VWR-2808 regression. Set the "UseOldTrackingDots" flag to TRUE, and restart the viewer to enable this feature. 
+* ReinstateAltShowPhysical: reinstates the "Alt Shows Physical" option in the View menu (this option was removed from voice viewers). The v2 patch yet does not force any more the "Alt shows physical" when in Edit mode. Fixes the VWR-2086 regression. 
+* ReinstateShowTextureUUID: reverts the "fix" for VWR-1919: security by opacity is a delusion: removing this feature would not prevent pirates to steal your textures, while it would prevent you to verify that some object has been textured with your own textures.
+* ReinstateStatusbarBandwidthAndPacketsLoss (for v1.19. This patch is part of the RevertUIchanges one for v1.20): gets rid of the search box in the status bar and reinstates the bandwidth and packets loss indicators. Fixes the VWR-3156 regression and fullfils VWR-3089. 
+* RevertUIchanges: this (large) patch reinstates the "old" (pre-voice) UI and adds some more features: 
+- Features common to all versions: 
+-- The chat input line, Gestures combo and Say/Shout buttons are removed from the chat history floater (this feature can be disabled by setting "UseOldChatHistory" to FALSE and restarting the viewer). 
+-- The friends list and the groups list are back as separate floaters that can both be shown simultaneously. As a bonus the Groups list floater also remembers its size and position (just like the friends list always did). 
+-- The toolbar is back to its old self (no distracting and cryptic icons and "fly buttons"), with the "Friends" button back into business, as well as (for those among you "old" enough to remember), the "Groups" button (if you don't like it, it can be hidden by setting "ShowGroupsButton" to FALSE and restarting the viewer). 
+-- The overlay bar (chat input line, buttons and volume/media remote controls) is back to its old self, with a few bonuses: the volume remote buttons stack nicely and "smartly" to the right above the chatbar (or toolbar if the chatbar is hidden), depending on which is actually needed (media, music and voice remotes are hidden by default and shown only when needed). The master volume button was also made smaller (slider removed: only the tiny button allowing to open the volume sliders panel is shown) and smarter (it is only shown whenever one of the music, media or voice are enabled/playing, but it can be shown permanently like it used to do in v1.18.6 by setting "HideMasterRemote" to FALSE). 
+-- The "Release Keys" button is always hidden by default (set "HideReleaseKeys" to FALSE to show it again) and replaced by a "Release Keys" entry in the Tools menu (or World menu for v1.20), below the "Stop All Animations" one. 
+* RevertUIchanges_RestrainedLife_addon: addon patch to apply when both the RevertUIchanges and the RestrainedLife patches are used (see below). 
+* StatusBarIcons: reverts a number of status bar icons (no-push, no-fly, no-build, no-script, voice...) to the old, much more readable and discernible ones (does LL have any clue about what accessibility means, even for non-disabled persons ?... Obviously not !). This patch comes along with a zip file (slviewer-0-v11900-statusbar-artwork-patch.zip) which is to be uncompressed after the main artwork zip file: if you are using the make-SL or cmake-SL utilities, this is done automatically. 
+* TeleportHistory_RestrainedLife_addon: addon patch to apply when both the RestrainedLife patch and the TeleportHistory patch are used (see below).
+
+Patches by Kitty Barnett: 
+* BuildFloaterMouseLookQuirk: Fixes a quirk with mouse-look in build mode (VWR-14767).
+
+Patches by Luricos Alderton/Boy Lane
+* RenderDeferred / obsolete OpenGL libs: fixes OpenGL issues (VWR-12540) 
+
+Patches by Marine Kelley:
+* RestrainedLife_v1.20.2 with improvements by Henri Beauchamp
+
+Patches by McCabe Maxsted: 
+* ExpandedBuildTools: adds a "Slice" setting to boxes, cylinders and prisms (VWR-7827). Other improvements by me: lowers the increments for path cut and dimple to 0.025 (VWR-7877) and includes the ImprovedBuildTools patch (see above). 
+* FriendshipAndCallingcardOffersIgnoreButton: adds an "Ignore" button to friendship and calling cards proposal dialogs (VWR-4826). 
+  
+Patches by Michelle2 Zenovka: 
+* JpegGracefulErrors: improves checks and error reports on bad texture uploads (VWR-4022). 
+* BulkSetPermissions: implements bulk permissions setting (VWR-5082). 
+* LlMsgVarData: fixes a possible crash bug and leak (VWR-8310). 
+
+Patches by Nicholaz Beresford: 
+* AsstachmentsBug: fixes the "all attachments in the ass" bug (VWR-374). 
+* DebugSettingsShortcutCtrlAltS: adds a keyboard shortcut (CTRL ALT S) to pop up the Debug Settings panel. 
+* InventoryNotify: unclutters the give inventory notification dialogs (VWR-1754). 
+* KeyframemotionLeaks: fixes bad memory leaks. 
+LpecRpecSwapped: fixes the ATTACH_LPEC/ATTACH_RPEC wrong (swapped) constants in the LSL editor (SVC-580). 
+* PossibleCrashAndLeakAssetStorage: fixes a potential crash and a memory leak. 
+* PossibleCrashDeadCubemap: fixes a potential crash (VWR-2682). 
+* PossibleCrashDragAndDrop: fixes a potential crash (VWR-2003). 
+* PossibleCrashGroupVoting: fixes a potential crash (VWR-2543). 
+* PossibleCrashHudBoundingBox: fixes a potential crash (VWR-2685). 
+* PossibleCrashSpeakerList: fixes a potential crash (VWR-2683). 
+* PossibleCrashRenderglow: fixes a potential crash. 
+* ShiftEscResetsCameraView: allows to reset the camera view with SHIFT ESC and does not close the chat input line when doing so. 
+* Statsbars: fixes stats bar overshooting and cleans up the texture console layout (VWR-779). 
+* SlurlMenuMemoryLeak: fixes a minor memory leak. 
+* TextureCacheHiccups: fixes texture caching quirks. Also includes the CacheSmallTextures patch by Robin Cornelius. 
+* WorkerThreadWhenTerminating: fixes a thread quirk (VWR-1294). 
+  
+Patches by Zi Ree: 
+* EditKeysInDialogs: fixes a problem with unsupported DEL key in some dialogs (VWR-9127). 
+* TeleportHistory: adds a teleport history floater (VWR-7913). 
+* VisitedLandmarks: fixes a long standing bug (dating back from 2007) with landmarks icon failing to turn red after use and with the position beacon failing to appear on arrival on first use of the LM (VWR-7896). 
+
+Miscellaneous patches: 
+* AttachedParticlesAndLightsKiller (Able Whitman. For v1.20 and older, implemented in v1.21): Allows to "mute" the light and/or particles emissions on attachements. See VWR-6540 for details. 
+* CacheSmallTextures (Robin Cornelius. Integrated to the TextureCacheHiccups patch: see above): Fixes small textures caching failures. See VWR-12686 for details. 
+* DeprecatedHttpResponse: aggregates the three necessary patches to make v1.19 viewers compatible with future SL servers. See VWR-12248 for details. 
+* DoubleClickTeleport (from Emerald viewer): implements a double-click teleport feature (double-clicking in world, teleports you at the mouse pointer position, provided the parcel teleport routing allows it). This also makes the "Go To" pie menu use teleport instead of auto-pilot. To enable this feature, set the DoubleClickTeleport debug setting to TRUE. 
+* FlexibleSculpties (by Zwagoth Klaar & Qarl Linden): implements flexible sculpties (BEWARE: flexible sculpties introduce a *lot* of lag on the viewer side: use sparsely !). Implements VWR-9203. 
+* GestureMissingError: based on a patch by Nicholaz Beresford, this improved patch works around the "missing gesture" bug (by me) and improves the error message when the gesture is actually missing (by Nicholaz). See VWR-333. 
+* LeakVoicevisualizer (by Mm Alder): fixes a memory leak (VWR-3777). 
+* LlhttpclientMemLeak: based on a patch by Carjay McGinnis, this patch plugs a couple of memory leaks (VWR-9400). 
+* LLimageTGA_DeleteColorMapFix (by Aleric Inglewood): fixes a memory leak (VWR-10837). 
+* LlmediaImplGstreamerFixes: aggregates patches from Tofu Linden (VWR-10370), Aleric Inglewood (VWR-10759) and, for v1.19.0.5 viewers a crash fix by Henri Beauchamp. 
+* LocalRulerAlignment(by Jacek Antonelli): Fixes a problem with the edit tools in "Local" ruler mode (VWR-1852). 
+* MultiLinesChat (by Tofu Linden): fixes multi-lines chat wrapping issues on the console (VWR-4057). 
+* OpenJpegChannels (by Carjay McGinnis): fixes a bug showing when using the OpenJPEG decoder (VWR-4070). 
+* PrimBackup: this patch implements an export/import feature for full perm objects (only the primitives and textures are exported and imported). It allows to backup and restore objects, as well as to transfer them from one grid to another. The code is borrowed from the Meerkat viewer, with bugs fixed, improvements (proper floater, export and import prim names and descriptions), backport to v1.19 by Henri Beauchamp 
+* SaveLoadScripts (by JB Kraft): allows to save and load scripts from the script editor to local file systems (VWR-5206). 
+* SendParcelSelectObjectWrongReturnType (by Carjay McGinnis): fixes a wrong type which triggers warnings in the log file (VWR-9620). 
+* ShiftReturnWhisper (unknown author): implements whispers for avatars via SHIFT+ENTER in the chatbar. 
+StuckGroupProposalArchives (by Dale Glass): fixes a problem with group proposal archives viewing (VWR-12532). 
+* WornInventoryTab (by Vadim Bigbear): Adds a "Worn" tab to the inventory floater. Implements VWR-2199. 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<panel label="웹" name="web">
+	<text name="cache_size_label_l">
+		브라우저 캐시:
+	</text>
+	<button label="지금 제거" name="clear_cache" />
+	<text name="cookie_label">
+		쿠키:
+	</text>
+	<check_box label="사이트로부터 쿠키 허용" name="cookies_enabled" />
+	<button label="지금 제거" name="clear_cookies" />
+	<text name="proxy_label">
+		웹 프록시:
+	</text>
+	<check_box label="웹 프록시 사용" name="web_proxy_enabled" />
+	<text name="proxy_text_label">
+		주소:
+	</text>
+	<line_editor name="web_proxy_editor" tool_tip="사용할 프록시 이름 또는 IP 주소" />
+	<spinner label="포트 번호:" name="web_proxy_port" />
+</panel>

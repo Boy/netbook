@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<strings>
+<string><a_file>alerts.xml</a_file>
+<b_path>//ErrorEncodingSnapshot/message</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Error encoding snapshot.
+		</d_old>
+<e_new>
+			Error encoding snapshot!
+		</e_new>
+<f_translation>
+			스냅샷 인코딩 중 오류가 발생했습니다.
+		</f_translation>
+<f_old_trans>
+			스냅샷 인코딩 중 오류가 발생했습니다.
+		</f_old_trans>
+</string><string><a_file>alerts.xml</a_file>
+<b_path>//AddClassified/message</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Classified ads appear in the &apos;Classified&apos; section of the
+Search directory and on www.secondlife.com for one week.
+Fill out your ad, then click &apos;Publish...&apos; to add it to the
+directory.
+You&apos;ll be asked for a price to pay when clicking Publish.
+Paying more makes your ad appear higher in the list, and
+also appear higher when people search for keywords.
+		</d_old>
+<e_new>
+			Classified ads appear in the &apos;Classified&apos; section of the
+Find directory for one week.
+Fill out your ad, then click &apos;Publish...&apos; to add it to the
+directory.
+You&apos;ll be asked for a price to pay when clicking Publish.
+Paying more makes your ad appear higher in the list, and
+also appear higher when people search for keywords.
+		</e_new>
+<f_translation>
+			광고가 1주일 동안 디렉토리 검색의&apos;광고&apos; 섹션에
+게시됩니다.
+광고를 작성한 후 &apos;게시하기&apos;를 클릭하여 디렉토리에
+추가합니다.
+게시하기를 클릭하면 요금 결제를 묻는 메시지가 나타납니다.
+높은 가격을 지불 할수록 목록의 상단 위치에 게시되고
+키워드 검색결과에 더 우선적으로 표시됩니다.
+		</f_translation>
+<f_old_trans>
+			광고가 1주일 동안 디렉토리 검색의&apos;광고&apos; 섹션에
+게시됩니다.
+광고를 작성한 후 &apos;게시하기&apos;를 클릭하여 디렉토리에
+추가합니다.
+게시하기를 클릭하면 요금 결제를 묻는 메시지가 나타납니다.
+높은 가격을 지불 할수록 목록의 상단 위치에 게시되고
+키워드 검색결과에 더 우선적으로 표시됩니다.
+		</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_objects_panel</b_path>
+<c_attribute></c_attribute>
+<d_old></d_old>
+<e_new>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+      /&gt;
+		</e_new>
+<f_translation>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+      /&gt;
+		</f_translation>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_media_panel/Media texture:</b_path>
+<c_attribute></c_attribute>
+<d_old>
+				Media
+texture:
+			</d_old>
+<e_new>
+				Sound
+Settings:
+			</e_new>
+<f_translation>
+				사운드
+설정:
+			</f_translation>
+<f_old_trans>
+				사운드
+설정:
+			</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_access_panel/AccessCheck</b_path>
+<c_attribute>label</c_attribute>
+<d_old>Always Allow</d_old>
+<e_new>Ban</e_new>
+<f_translation>차단</f_translation>
+<f_old_trans>차단</f_old_trans>
+</string><string><a_file>floater_about_land.xml</a_file>
+<b_path>/floaterland/landtab/land_access_panel/AccessCheck</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			  Allowed Residents
+			</d_old>
+<e_new>
+			  Banned Residents
+			</e_new>
+<f_translation>
+			  출입금지된 주민
+			</f_translation>
+<f_old_trans>
+				출입금지된 주민
+			</f_old_trans>
+</string><string><a_file>panel_audio_device.xml</a_file>
+<b_path>/device_settings/Input device (microphone):</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Audio Devices
+		</d_old>
+<e_new>
+			Input device (microphone):
+		</e_new>
+<f_translation>
+			입력 장치(마이크):
+		</f_translation>
+<f_old_trans>
+		입력 레벨
+	</f_old_trans>
+</string><string><a_file>panel_audio_device.xml</a_file>
+<b_path>/device_settings/Input device (microphone):</b_path>
+<c_attribute></c_attribute>
+<d_old>
+			Audio Devices
+		</d_old>
+<e_new>
+			Input Level
+		</e_new>
+<f_translation>
+			입력 레벨
+		</f_translation>
+<f_old_trans>
+		입력 레벨
+	</f_old_trans>
+</string><string><a_file>panel_login.xml</a_file>
+<b_path>/panel_login/real_url</b_path>
+<c_attribute></c_attribute>
+<d_old>
+	     https://secondlife.com/app/login/?show_login_form=True
+	</d_old>
+<e_new>
+		http://secondlife.com/app/login/
+	</e_new>
+<f_translation>
+		http://secondlife.com/app/login/
+	</f_translation>
+<f_old_trans>
+		https://secondlife.com/app/login/?show_login_form=True
+	</f_old_trans>
+</string><string><a_file>panel_preferences_audio.xml</a_file>
+<b_path>/Media panel/doppler_effect_text</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Streaming Preferences:
+	</d_old>
+<e_new>
+		Audio Preferences:
+	</e_new>
+<f_translation>
+		오디오 환경 설정:
+	</f_translation>
+<f_old_trans>
+		오디오 환경 설정:
+	</f_old_trans>
+</string><string><a_file>panel_preferences_im.xml</a_file>
+<b_path>/im/text_box3</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Busy Mode Response:
+	</d_old>
+<e_new>
+		Logging Options:
+	</e_new>
+<f_translation>
+		로그인 옵션:
+	</f_translation>
+<f_old_trans>
+		로그인 옵션:
+	</f_old_trans>
+</string><string><a_file>panel_preferences_voice.xml</a_file>
+<b_path>/chat/voice_chat_description</b_path>
+<c_attribute></c_attribute>
+<d_old>
+		Push-to-Talk mode lets you control when your voice is transmitted. When in toggle mode, press and release the push-to-talk trigger to switch your microphone on and off. When not in toggle mode, the microphone is active only when the trigger is held down.
+	</d_old>
+<e_new>
+		NOTE: Running the Device Settings or Voice Chat Setup will temporarily disconnect you from Voice Chat.
+	</e_new>
+<f_translation>
+		참고: 장치 설정 또는 음성 채팅 설정을 실행하면 일시적으로 음성 채팅 연결이 끊길 수 있습니다.
+	</f_translation>
+<f_old_trans>
+		참고: 장치 설정 또는 음성 채팅 설정을 실행하면 일시적으로 음성 채팅 연결이 끊길 수 있습니다.
+	</f_old_trans>
+</string><string><a_file>panel_voice_options.xml</a_file>
+<b_path>/content_panel/push_to_talk_check</b_path>
+<c_attribute>label</c_attribute>
+<d_old>Only allow Friends to initiate Voice Calls with me</d_old>
+<e_new>Start Viewer in Push-to-Talk mode</e_new>
+<f_translation>말하기 조절 모드로 세컨드라이프 시작</f_translation>
+<f_old_trans>말하기 조절 모드로 세컨드라이프 시작</f_old_trans>
+</string>
+</strings>
